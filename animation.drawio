@@ -405,7 +405,7 @@
         <mxCell id="Jkyj7SR3gBLGh3mX16K4-56" value="-_clipLength : List&amp;lt;float&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Jkyj7SR3gBLGh3mX16K4-49">
           <mxGeometry y="104" width="530" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Jkyj7SR3gBLGh3mX16K4-57" value="-_clipEnterLength : List&amp;lt;float&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Jkyj7SR3gBLGh3mX16K4-49">
+        <mxCell id="Jkyj7SR3gBLGh3mX16K4-57" value="-_clipEnterTime : List&amp;lt;float&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Jkyj7SR3gBLGh3mX16K4-49">
           <mxGeometry y="130" width="530" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Jkyj7SR3gBLGh3mX16K4-51" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Jkyj7SR3gBLGh3mX16K4-49">
