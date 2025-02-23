@@ -201,7 +201,7 @@
         <mxCell id="PN7_zCeiI8JO8wiYlvwA-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PN7_zCeiI8JO8wiYlvwA-66" target="PN7_zCeiI8JO8wiYlvwA-79">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PN7_zCeiI8JO8wiYlvwA-66" value="nums[left] &amp;lt; target" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="PN7_zCeiI8JO8wiYlvwA-66" value="nums[mid] &amp;lt; target" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-990" y="628" width="180" height="110" as="geometry" />
         </mxCell>
         <mxCell id="PN7_zCeiI8JO8wiYlvwA-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="PN7_zCeiI8JO8wiYlvwA-68" target="PN7_zCeiI8JO8wiYlvwA-55">
@@ -230,7 +230,7 @@
         <mxCell id="PN7_zCeiI8JO8wiYlvwA-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PN7_zCeiI8JO8wiYlvwA-79" target="PN7_zCeiI8JO8wiYlvwA-80">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PN7_zCeiI8JO8wiYlvwA-79" value="nums[right] &amp;gt; target" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="PN7_zCeiI8JO8wiYlvwA-79" value="nums[mid] &amp;gt; target" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-1250" y="628" width="180" height="110" as="geometry" />
         </mxCell>
         <mxCell id="PN7_zCeiI8JO8wiYlvwA-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PN7_zCeiI8JO8wiYlvwA-80" target="PN7_zCeiI8JO8wiYlvwA-55">
