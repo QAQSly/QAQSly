@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="26.0.16">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3441" dy="2897" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3317" dy="2824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -638,7 +638,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="G2M7-LMzRMHqUTI3DSJV-79" value="InputManager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-960" y="-1490" width="620" height="346" as="geometry" />
+          <mxGeometry x="-960" y="-1490" width="620" height="632" as="geometry" />
         </mxCell>
         <mxCell id="G2M7-LMzRMHqUTI3DSJV-80" value="+current : InputData" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="G2M7-LMzRMHqUTI3DSJV-79">
           <mxGeometry y="26" width="620" height="26" as="geometry" />
@@ -678,6 +678,39 @@
         </mxCell>
         <mxCell id="G2M7-LMzRMHqUTI3DSJV-98" value="+GetTap(string name) : bool static" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="G2M7-LMzRMHqUTI3DSJV-79">
           <mxGeometry y="320" width="620" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="G2M7-LMzRMHqUTI3DSJV-99" value="+GetTapCount(string name) : int static" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="G2M7-LMzRMHqUTI3DSJV-79">
+          <mxGeometry y="346" width="620" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="G2M7-LMzRMHqUTI3DSJV-100" value="+GetPressDown(string name) : bool static" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="G2M7-LMzRMHqUTI3DSJV-79">
+          <mxGeometry y="372" width="620" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="G2M7-LMzRMHqUTI3DSJV-101" value="+GetPressUp(string name) : bool static" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="G2M7-LMzRMHqUTI3DSJV-79">
+          <mxGeometry y="398" width="620" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="G2M7-LMzRMHqUTI3DSJV-102" value="+GetPressing(string name) : bool static" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="G2M7-LMzRMHqUTI3DSJV-79">
+          <mxGeometry y="424" width="620" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="G2M7-LMzRMHqUTI3DSJV-103" value="+GetPressTime(string name) : float static" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="G2M7-LMzRMHqUTI3DSJV-79">
+          <mxGeometry y="450" width="620" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="G2M7-LMzRMHqUTI3DSJV-104" value="+GetValue(string name) : float static" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="G2M7-LMzRMHqUTI3DSJV-79">
+          <mxGeometry y="476" width="620" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="G2M7-LMzRMHqUTI3DSJV-105" value="+GetAxis(string name) : float static" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="G2M7-LMzRMHqUTI3DSJV-79">
+          <mxGeometry y="502" width="620" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="G2M7-LMzRMHqUTI3DSJV-106" value="+ GetAxis2D(string name) : Vector2 static" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="G2M7-LMzRMHqUTI3DSJV-79">
+          <mxGeometry y="528" width="620" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="G2M7-LMzRMHqUTI3DSJV-107" value="+GetMultiDown(string name) : bool static" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="G2M7-LMzRMHqUTI3DSJV-79">
+          <mxGeometry y="554" width="620" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="G2M7-LMzRMHqUTI3DSJV-108" value="+GetCombo(string name) : bool static" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="G2M7-LMzRMHqUTI3DSJV-79">
+          <mxGeometry y="580" width="620" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="G2M7-LMzRMHqUTI3DSJV-109" value="+GetComboCount(string name) : int static" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="G2M7-LMzRMHqUTI3DSJV-79">
+          <mxGeometry y="606" width="620" height="26" as="geometry" />
         </mxCell>
         <mxCell id="G2M7-LMzRMHqUTI3DSJV-83" value="BaseSingleton" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-750" y="-1690" width="160" height="86" as="geometry" />
