@@ -53,16 +53,22 @@
           <mxGeometry y="372" width="390" height="26" as="geometry" />
         </mxCell>
         <mxCell id="uVSXAjv3Zr4qq0RaLcOH-4" value="&lt;div&gt;ModifierType&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="470" y="90" width="300" height="86" as="geometry" />
+          <mxGeometry x="470" y="90" width="300" height="138" as="geometry" />
         </mxCell>
-        <mxCell id="uVSXAjv3Zr4qq0RaLcOH-5" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uVSXAjv3Zr4qq0RaLcOH-4">
+        <mxCell id="uVSXAjv3Zr4qq0RaLcOH-5" value="Flat : 直接加减" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uVSXAjv3Zr4qq0RaLcOH-4">
           <mxGeometry y="26" width="300" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="uVSXAjv3Zr4qq0RaLcOH-30" value="PercentAdd ： 百分比加成" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uVSXAjv3Zr4qq0RaLcOH-4">
+          <mxGeometry y="52" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uVSXAjv3Zr4qq0RaLcOH-31" value="PercenMult： 基于初始值d百分比" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uVSXAjv3Zr4qq0RaLcOH-4">
+          <mxGeometry y="78" width="300" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="uVSXAjv3Zr4qq0RaLcOH-6" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="uVSXAjv3Zr4qq0RaLcOH-4">
-          <mxGeometry y="52" width="300" height="8" as="geometry" />
+          <mxGeometry y="104" width="300" height="8" as="geometry" />
         </mxCell>
         <mxCell id="uVSXAjv3Zr4qq0RaLcOH-7" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uVSXAjv3Zr4qq0RaLcOH-4">
-          <mxGeometry y="60" width="300" height="26" as="geometry" />
+          <mxGeometry y="112" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="uVSXAjv3Zr4qq0RaLcOH-22" value="CharacterAttribute" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="500" y="310" width="360" height="190" as="geometry" />
