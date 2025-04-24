@@ -34,12 +34,6 @@
         <mxCell id="pZ7a381_uyiExwxEa0q3-10" value="+ Notify(object sender, string ev) : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pZ7a381_uyiExwxEa0q3-4">
           <mxGeometry y="112" width="420" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="pZ7a381_uyiExwxEa0q3-8" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.55;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pZ7a381_uyiExwxEa0q3-4" target="pZ7a381_uyiExwxEa0q3-3">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="330" y="400" as="sourcePoint" />
-            <mxPoint x="490" y="400" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="pZ7a381_uyiExwxEa0q3-11" value="BaseComponent" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="600" y="240" width="372.09" height="112" as="geometry" />
         </mxCell>
@@ -122,6 +116,12 @@
         </mxCell>
         <mxCell id="pZ7a381_uyiExwxEa0q3-34" value="组合" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="435" y="468" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pZ7a381_uyiExwxEa0q3-35" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.821;exitY=-0.007;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.61;entryY=0.923;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pZ7a381_uyiExwxEa0q3-4" target="pZ7a381_uyiExwxEa0q3-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="370" y="380" as="sourcePoint" />
+            <mxPoint x="530" y="380" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
