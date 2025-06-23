@@ -4,7 +4,7 @@ Hi there 👋 I'm Sly
 ![Unity](https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity)
 ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp)
 ![Shader](https://img.shields.io/badge/ShaderLab-开发中-8A2BE2?style=flat-square)
-![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=java)
+
 
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B)
 ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c)
